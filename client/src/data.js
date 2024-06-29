@@ -329,7 +329,7 @@ export const cards = [
       desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
       price: 1100,
       star: 4,
-      username: "Wilton Hunt",
+      username: "Amelia Blunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
       shortDesc: "Minimalist Designs with Maximum Impact.",
@@ -348,7 +348,7 @@ export const cards = [
       img: "/img/db7.jpeg.jpg",
       pp: ["/img/db7.jpeg.jpg",
           "/img/db8.jpeg.jpg",
-          "/img/db9.jpeg.jpgg"
+          "/img/db9.jpeg.jpg"
       ],
       desc: "Digital Billboards: Where Your Message Takes Center Stage",
       price: 1100,
@@ -399,7 +399,7 @@ export const cards = [
       desc: "Amplify Your Message: Digital Billboards for the Modern Era.",
       price: 1100,
       star: 4,
-      username: "Wilton Hunt",
+      username: "Mark robber",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
       shortDesc: "Captivate Audiences with Unique Ads.",
@@ -466,7 +466,7 @@ export const cards = [
           "/img/b2.jpg",
           "/img/b3.jpg"
       ],
-      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      desc: "Make a Mark. Make a Difference. Banner It Up.",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -489,7 +489,7 @@ export const cards = [
           "/img/b3.jpg",
           "/img/b2.jpg"
       ],
-      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      desc: "Beyond the Ordinary. Banner Your Extraordinary.",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -512,7 +512,7 @@ export const cards = [
           "/img/b1.jpg",
           "/img/b2.jpg"
       ],
-      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      desc: "Turn Heads. Turn the Tide. Banner Your Brand.",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -536,7 +536,7 @@ export const cards = [
           "/img/sf3.jpeg.jpg",
           "/img/sf2.jpeg.jpg"
       ],
-      desc: "I will recreate your dreams in high quality pictures",
+      desc: " Small Ads, Big Impact. Make Your Mark.",
       price: 5999,
       star: 5,
       username: "Audrey Richards",
@@ -559,7 +559,7 @@ export const cards = [
           "/img/sf1.jpeg.jpg",
           "/img/sf2.jpeg.jpg"
       ],
-      desc: "I will recreate your dreams in high quality pictures",
+      desc: "Because You're Worth It. Every Day.",
       price: 5999,
       star: 5,
       username: "Audrey Richards",
