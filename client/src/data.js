@@ -329,7 +329,7 @@ export const cards = [
       desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
       price: 1100,
       star: 4,
-      username: "Wilton Hunt",
+      username: "Amelia Blunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
       shortDesc: "Minimalist Designs with Maximum Impact.",
@@ -348,7 +348,7 @@ export const cards = [
       img: "/img/db7.jpeg.jpg",
       pp: ["/img/db7.jpeg.jpg",
           "/img/db8.jpeg.jpg",
-          "/img/db9.jpeg.jpgg"
+          "/img/db9.jpeg.jpg"
       ],
       desc: "Digital Billboards: Where Your Message Takes Center Stage",
       price: 1100,
@@ -399,7 +399,7 @@ export const cards = [
       desc: "Amplify Your Message: Digital Billboards for the Modern Era.",
       price: 1100,
       star: 4,
-      username: "Wilton Hunt",
+      username: "Mark robber",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
       shortDesc: "Captivate Audiences with Unique Ads.",
