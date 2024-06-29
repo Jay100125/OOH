@@ -132,7 +132,7 @@ function Gig() {
       <div className="container">
         <div className="left">
           <span className="breadcrumbs">Liverr > Graphics & Design ></span>
-          <h1>I will create ai generated art for you</h1>
+          <h1>Promote Your Brand on Prime Billboard Locations</h1>
           <div className="user">
             <img
               className="pp"
@@ -165,19 +165,7 @@ function Gig() {
           </Slider>
           <h2>About This Gig</h2>
           <p>
-            I use an AI program to create images based on text prompts. This
-            means I can help you to create a vision you have through a textual
-            description of your scene without requiring any reference images.
-            Some things I've found it often excels at are: Character portraits
-            (E.g. a picture to go with your DnD character) Landscapes (E.g.
-            wallpapers, illustrations to compliment a story) Logos (E.g. Esports
-            team, business, profile picture) You can be as vague or as
-            descriptive as you want. Being more vague will allow the AI to be
-            more creative which can sometimes result in some amazing images. You
-            can also be incredibly precise if you have a clear image of what you
-            want in mind. All of the images I create are original and will be
-            found nowhere else. If you have any questions you're more than
-            welcome to send me a message.
+           Tired of generic OOH ads? We create breathtaking visuals that will stop traffic and make your brand unforgettable. From giant character portraits to awe-inspiring landscapes, we design unique, eye-catching art that's perfect for billboards, bus shelters, and more. Ready to make your brand stand out? Let's talk!
           </p>
           <div className="seller">
             <h2>About The Seller</h2>
@@ -187,7 +175,7 @@ function Gig() {
                 alt=""
               />
               <div className="info">
-                <span>Anna Bell</span>
+                <span>Little Angel</span>
                 <div className="stars">
                   <img src="/img/star.png" alt="" />
                   <img src="/img/star.png" alt="" />
@@ -203,23 +191,15 @@ function Gig() {
               <div className="items">
                 <div className="item">
                   <span className="title">From</span>
-                  <span className="desc">USA</span>
+                  <span className="desc">Ahmedabad</span>
                 </div>
                 <div className="item">
                   <span className="title">Member since</span>
                   <span className="desc">Aug 2022</span>
                 </div>
                 <div className="item">
-                  <span className="title">Avg. response time</span>
-                  <span className="desc">4 hours</span>
-                </div>
-                <div className="item">
                   <span className="title">Last delivery</span>
                   <span className="desc">1 day</span>
-                </div>
-                <div className="item">
-                  <span className="title">Languages</span>
-                  <span className="desc">English</span>
                 </div>
               </div>
               <hr />
@@ -260,12 +240,7 @@ function Gig() {
                 <span>5</span>
               </div>
               <p>
-                I just want to say that art_with_ai was the first, and after
-                this, the only artist Ill be using on Fiverr. Communication was
-                amazing, each and every day he sent me images that I was free to
-                request changes to. They listened, understood, and delivered
-                above and beyond my expectations. I absolutely recommend this
-                gig, and know already that Ill be using it again very very soon
+              "Little angel was the first, and after this, the only OOH agency I'll be working with. They were incredibly communicative throughout the entire process, providing me with regular updates and showing me design iterations every step of the way. They listened carefully to my vision, understood my target audience, and delivered a campaign that exceeded my expectations. The final designs are absolutely stunning, and I'm confident they'll make a huge impact. I highly recommend Little angel for anyone looking for creative, impactful OOH campaigns."
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
@@ -303,10 +278,7 @@ function Gig() {
                 <span>5</span>
               </div>
               <p>
-                The designer took my photo for my book cover to the next level!
-                Professionalism and ease of working with designer along with
-                punctuality is above industry standards!! Whatever your project
-                is, you need this designer!
+              "It was a dream to work with! They listened carefully to my vision and provided constant updates throughout the process. They truly went above and beyond to make sure I was happy with the final design."
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
@@ -344,11 +316,7 @@ function Gig() {
                 <span>5</span>
               </div>
               <p>
-                Amazing work! Communication was
-                amazing, each and every day he sent me images that I was free to
-                request changes to. They listened, understood, and delivered
-                above and beyond my expectations. I absolutely recommend this
-                gig, and know already that Ill be using it again very very soon
+              I'm so glad I chose little angel for my OOH campaign. They delivered exactly what I was hoping for, and the results have been fantastic. I highly recommend them to anyone looking for a creative and effective OOH agency.
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
