@@ -123,16 +123,22 @@
 // export default Gig;
 
 import React from "react";
+
 import "./Gig.scss";
 import { Slider } from "infinite-react-carousel/lib";
+import { useParams } from "react-router-dom";
+import { gigsdetails } from "../../data";
 
 function Gig() {
+  const { id } = useParams();
+  console.log(id);
+  const gigData = gigsdetails.find((gig) => gig.id === parseInt(id));
   return (
     <div className="gig">
       <div className="container">
         <div className="left">
-          <span className="breadcrumbs">Liverr > Graphics & Design ></span>
-          <h1>Promote Your Brand on Prime Billboard Locations</h1>
+          <span className="breadcrumbs">Liverr Graphics & Design </span>
+          <h1>{gigData.desc}</h1>
           <div className="user">
             <img
               className="pp"
