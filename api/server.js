@@ -32,7 +32,7 @@ app.use(
 );
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
-app.use("/api/gigs", gigRoute);
+app.use("/api/ads", gigRoute);
 app.use("/api/reviews", reviewRoute);
 app.use("/api/conversations", conversationRoute);
 app.use("/api/orders", orderRoute);

@@ -129,6 +129,7 @@ export const cards = [
       price: 5999,
       star: 5,
       username: "Anna Bell",
+      title: "Wallscapes",
     },
     {
       id: 2,
@@ -138,6 +139,7 @@ export const cards = [
       price: 7999,
       star: 5,
       username: "Lannie Coleman",
+      title: "Poster",
     },
     {
       id: 3,
@@ -147,6 +149,7 @@ export const cards = [
       price: 1199,
       star: 5,
       username: "Carol Steve",
+      title: "Digital Billboards",
     },
     {
       id: 4,
@@ -156,6 +159,7 @@ export const cards = [
       price: 9999,
       star: 4,
       username: "Don Weber",
+      title: "Billboards",
     },
     {
       id: 5,
@@ -165,6 +169,7 @@ export const cards = [
       price: 5999,
       star: 5,
       username: "Audrey Richards",
+      title: "Street Furniture",
     },
     {
       id: 6,
@@ -174,6 +179,7 @@ export const cards = [
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
+      title: "Wallscapes",
     },
     {
       id: 7,
@@ -183,6 +189,7 @@ export const cards = [
       price: 8999,
       star: 5,
       username: "Waverly Schaefer",
+      title: "Poster",
     },
     {
       id: 8,
@@ -192,6 +199,7 @@ export const cards = [
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
+      title: "Digital Billboards",
     },
   ];
   

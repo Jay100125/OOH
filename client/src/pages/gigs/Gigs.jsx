@@ -82,26 +82,44 @@
 //   );
 // }
 // export default Gigs
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import "./Gigs.scss";
 import { gigs } from "../../data";
 import GigCard from "../../components/gigCard/GigCard";
+import { useLocation } from "react-router-dom";
 
 function Gigs() {
   const [sort, setSort] = useState("sales");
   const [open, setOpen] = useState(false);
+  const [filteredGigs, setFilteredGigs] = useState([]);
+
   const minRef = useRef();
   const maxRef = useRef();
+
+  const { search } = useLocation();
+
+  useEffect(() => {
+    const query = new URLSearchParams(search);
+    const title = query.get("title");
+    if (title) {
+      const filtered = gigs.filter((gig) =>
+        gig.title.toLowerCase().includes(title.toLowerCase())
+      );
+      setFilteredGigs(filtered);
+    } else {
+      setFilteredGigs(gigs);
+    }
+  }, [search]);
 
   const reSort = (type) => {
     setSort(type);
     setOpen(false);
   };
 
-  const apply = ()=>{
-    console.log(minRef.current.value)
-    console.log(maxRef.current.value)
-  }
+  const apply = () => {
+    console.log(minRef.current.value);
+    console.log(maxRef.current.value);
+  };
 
   return (
     <div className="gigs">
@@ -130,14 +148,14 @@ function Gigs() {
                   <span onClick={() => reSort("createdAt")}>Newest</span>
                 ) : (
                   <span onClick={() => reSort("sales")}>Best Selling</span>
-                  )}
-                  <span onClick={() => reSort("sales")}>Popular</span>
+                )}
+                <span onClick={() => reSort("sales")}>Popular</span>
               </div>
             )}
           </div>
         </div>
         <div className="cards">
-          {gigs.map((gig) => (
+          {filteredGigs.map((gig) => (
             <GigCard key={gig.id} item={gig} />
           ))}
         </div>

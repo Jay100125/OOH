@@ -50,7 +50,7 @@ function App() {
           element: <Gigs />,
         },
         {
-          path: "/myGigs",
+          path: "/myads",
           element: <MyGigs />,
         },
         {

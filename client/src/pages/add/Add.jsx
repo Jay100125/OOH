@@ -44,6 +44,7 @@ const Add = () => {
 
   const mutation = useMutation({
     mutationFn: (gig) => {
+      console.log("POST: ",gig);
       return newRequest.post("/ads", gig);
     },
     onSuccess: () => {
@@ -63,6 +64,13 @@ const Add = () => {
         <h1>Add New Ad-Space</h1>
         <div className="sections">
           <div className="info">
+            <label htmlFor="">Title</label>
+            <input
+              type="text"
+              name="title"
+              placeholder="Add title for your post"
+              onChange={handleChange}
+            />
             <label htmlFor="">Address</label>
             <input
               type="text"

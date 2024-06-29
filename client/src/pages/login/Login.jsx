@@ -14,14 +14,13 @@ const Login = () => {
     try {
       const res = await newRequest.post("/auth/login", { username, password })
       localStorage.setItem("currentUser", JSON.stringify(res.data))
+      console.log("RESPONSE_DATA: ",res.data)
       navigate("/")
     } catch (err) {
       // const errorMessage = err.response?.data || 'An error occurred';
       setError(err.response.data);
       console.error(err);
     }
-
-
   }
   return <div className="login">
     <form onSubmit={handleSubmit}>
