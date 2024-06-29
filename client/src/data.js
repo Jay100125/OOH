@@ -19,7 +19,7 @@ export const cards = [
     },
     {
       id: 4,
-      title: "BillBoards",
+      title: "Banner",
       // desc: "Engage your audience",
       img: "./img/4.jpg",
     },
@@ -251,10 +251,10 @@ export const cards = [
     },
     {
       id: 3,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/db1.jpeg.jpg",
+      pp: ["/img/db1.jpeg.jpg",
+          "/img/db2.jpeg.jpg",
+          "/img/db3.jpeg.jpg"
       ],
       desc: "Your Message. Their Attention. Digital Billboards Make it Happen.",
       price: 1199,
@@ -274,10 +274,10 @@ export const cards = [
     },
     {
       id: 5,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/sf1.jpeg.jpg",
+      pp: ["/img/sf1.jpeg.jpg",
+          "/img/sf2.jpeg.jpg",
+          "/img/sf3.jpeg.jpg"
       ],
       desc: "I will recreate your dreams in high quality pictures",
       price: 5999,
@@ -321,10 +321,10 @@ export const cards = [
     },
     {
       id: 8,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/db4.jpeg.jpg",
+      pp: ["/img/db4.jpeg.jpg",
+          "/img/db5.jpeg.jpg",
+          "/img/db6.jpeg.jpg"
       ],
       desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
       price: 1100,
@@ -345,10 +345,10 @@ export const cards = [
 
     {
       id: 10,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/db7.jpeg.jpg",
+      pp: ["/img/db7.jpeg.jpg",
+          "/img/db8.jpeg.jpg",
+          "/img/db9.jpeg.jpgg"
       ],
       desc: "Digital Billboards: Where Your Message Takes Center Stage",
       price: 1100,
@@ -391,10 +391,10 @@ export const cards = [
     },
     {
       id: 12,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/db10.jpeg.jpg",
+      pp: ["/img/db10.jpeg.jpg",
+          "/img/db11.jpeg.jpg",
+          "/img/db12.jpeg.jpg"
       ],
       desc: "Amplify Your Message: Digital Billboards for the Modern Era.",
       price: 1100,
@@ -461,10 +461,10 @@ export const cards = [
     },
     {
       id: 16,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/b1.jpg",
+      pp: ["/img/b1.jpg",
+          "/img/b2.jpg",
+          "/img/b3.jpg"
       ],
       desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
       price: 1100,
@@ -484,10 +484,10 @@ export const cards = [
     },
     {
       id: 17,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/b4.jpg",
+      pp: ["/img/b4.jpg",
+          "/img/b3.jpg",
+          "/img/b2.jpg"
       ],
       desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
       price: 1100,
@@ -507,10 +507,10 @@ export const cards = [
     },
     {
       id: 18,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/b5.jpg",
+      pp: ["/img/b5.jpg",
+          "/img/b1.jpg",
+          "/img/b2.jpg"
       ],
       desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
       price: 1100,
@@ -528,35 +528,13 @@ export const cards = [
         "Additional Design Elements:  Minimalist Design,  Brand-Specific Imagery"
       ],
     },
-    {
-      id: 5,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
-      ],
-      desc: "I will recreate your dreams in high quality pictures",
-      price: 5999,
-      star: 5,
-      username: "Audrey Richards",
-      title: "Street Furniture",
-      shortTitle: "Street Furniture",
-      shortDesc: "Blend Seamlessly into City Life with Stylish Ads.",
-      deliveryDate: 3,
-      revisionNumber: 2,
-      features: [
-        "Size: 5 X 8 ft.",
-        "Location: Ashram Road, Ahmedabad",
-        "Target Audience:  Commuters,  Pedestrians",
-        "Additional Design Elements:  Creative Typography,  Minimalist Style"
-      ],
-    },
+    
     {
       id: 19,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/sf4.jpeg.jpg",
+      pp: ["/img/sf4.jpeg.jpg",
+          "/img/sf3.jpeg.jpg",
+          "/img/sf2.jpeg.jpg"
       ],
       desc: "I will recreate your dreams in high quality pictures",
       price: 5999,
@@ -576,10 +554,10 @@ export const cards = [
     },
     {
       id: 20,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/sf3.jpeg.jpg",
+      pp: ["/img/sf3.jpeg.jpg",
+          "/img/sf1.jpeg.jpg",
+          "/img/sf2.jpeg.jpg"
       ],
       desc: "I will recreate your dreams in high quality pictures",
       price: 5999,
