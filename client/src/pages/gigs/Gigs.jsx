@@ -84,7 +84,7 @@
 // export default Gigs
 import React, { useRef, useState, useEffect } from "react";
 import "./Gigs.scss";
-import { gigs } from "../../data";
+import { gigsdetails } from "../../data";
 import GigCard from "../../components/gigCard/GigCard";
 import { useLocation } from "react-router-dom";
 
@@ -102,12 +102,12 @@ function Gigs() {
     const query = new URLSearchParams(search);
     const title = query.get("title");
     if (title) {
-      const filtered = gigs.filter((gig) =>
+      const filtered = gigsdetails.filter((gig) =>
         gig.title.toLowerCase().includes(title.toLowerCase())
       );
       setFilteredGigs(filtered);
     } else {
-      setFilteredGigs(gigs);
+      setFilteredGigs(gigsdetails);
     }
   }, [search]);
 
@@ -124,7 +124,7 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">Liverr > Graphics & Design ></span>
+        <span className="breadcrumbs">Liverr Graphics & Design </span>
         <h1>AI Artists</h1>
         <p>
           Explore the boundaries of art and technology with Liverr's AI artists
