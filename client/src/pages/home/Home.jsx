@@ -100,7 +100,7 @@ const Home = () => {
             <button>Learn More</button>
           </div>
           <div className="item">
-            <img src="./img/Fe.webp" alt="" />
+            <img style={{borderRadius: "5px", boxShadow:"2px 2px 20px 2px rgba(51, 51, 51, 0.74)"}} src="./img/bg3.jpg" alt="" />
           </div>
         </div>
       </div>
