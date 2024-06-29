@@ -40,12 +40,12 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/" className="link">
-            <span className="text">OOH</span>
+            <span className="text">AdSpace</span>
           </Link>
-          <span className="dot">.</span>
+          {/* <span className="dot">.</span> */}
         </div>
         <div className="links">
-          <span>OOH Bussiness</span>
+          <span>AdSpace Bussiness</span>
           {/* <span>Explorer</span>
           <span>English</span> */}
           {!currentUser?.isSeller && <span>Become a Seller</span>}
