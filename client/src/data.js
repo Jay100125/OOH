@@ -213,8 +213,7 @@ export const cards = [
       username: "Anna Bell",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Captivating Wallscapes that Transform Urban Spaces into Eye-Catching Brand Experiences.",
+      shortDesc: "Transform Urban Spaces into Vibrant Brand Showcases.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -234,7 +233,7 @@ export const cards = [
       username: "Lannie Coleman",
       title: "Poster",
       shortTitle: "Posters",
-      shortDesc: "Eye-Catching Posters to Promote Your Brand in Various Settings.",
+      shortDesc: "Eye-Catching Posters for Maximum Street Impact.",
       deliveryDate: 3,
       revisionNumber: 2,
       features: [
@@ -254,7 +253,7 @@ export const cards = [
       username: "Carol Steve",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Engaging Digital Billboard Campaigns to Capture Attention.",
+      shortDesc: "Engaging Digital Campaigns for Modern Audiences.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -274,7 +273,7 @@ export const cards = [
       username: "Don Weber",
       title: "Billboards",
       shortTitle: "Billboards",
-      shortDesc: "Striking Billboard Visuals to Boost Brand Awareness.",
+      shortDesc: "Striking Visuals to Command Attention Everywhere.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -294,8 +293,7 @@ export const cards = [
       username: "Audrey Richards",
       title: "Street Furniture",
       shortTitle: "Street Furniture",
-      shortDesc:
-        "Street Furniture Ads that Blend Seamlessly with the Urban Landscape.",
+      shortDesc: "Blend Seamlessly into City Life with Stylish Ads.",
       deliveryDate: 3,
       revisionNumber: 2,
       features: [
@@ -315,8 +313,7 @@ export const cards = [
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Urban Experiences Redefined with Bold Graphics.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -336,7 +333,7 @@ export const cards = [
       username: "Waverly Schaefer",
       title: "Poster",
       shortTitle: "Posters",
-      shortDesc: "Craft eye-catching posters that grab attention and promote your brand in various settings.",
+      shortDesc: "Fun and Colorful Designs for Any Setting.",
       deliveryDate: 3,
       revisionNumber: 2,
       features: [
@@ -356,7 +353,7 @@ export const cards = [
       username: "Wilton Hunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Create engaging, eye-catching digital billboard campaigns that capture attention and drive results.",
+      shortDesc: "Minimalist Designs with Maximum Impact.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -376,8 +373,7 @@ export const cards = [
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Transform Public Spaces with Creative Designs.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -397,7 +393,7 @@ export const cards = [
       username: "Wilton Hunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Create engaging, eye-catching digital billboard campaigns that capture attention and drive results.",
+      shortDesc: "Bold Designs that Make a Statement.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -417,8 +413,7 @@ export const cards = [
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Dynamic Visuals for Every Corner of the City.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -438,7 +433,7 @@ export const cards = [
       username: "Wilton Hunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Create engaging, eye-catching digital billboard campaigns that capture attention and drive results.",
+      shortDesc: "Captivate Audiences with Unique Ads.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -458,8 +453,7 @@ export const cards = [
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Captivate Audiences with Unique Ads.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -479,7 +473,7 @@ export const cards = [
       username: "Wilton Hunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Create engaging, eye-catching digital billboard campaigns that capture attention and drive results.",
+      shortDesc: "Bold Designs that Make a Statement.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -499,8 +493,7 @@ export const cards = [
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Urban Spaces Transformed with Innovative Art.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -510,4 +503,4 @@ export const cards = [
         "Additional Design Elements:  Creative Typography,  Minimalist Style"
       ],
     }
-  ]; 
+  ];
