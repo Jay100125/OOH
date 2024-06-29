@@ -19,14 +19,6 @@ const Add = () => {
       payload: { name: e.target.name, value: e.target.value },
     });
   };
-  const handleFeature = (e) => {
-    e.preventDefault();
-    dispatch({
-      type: "ADD_FEATURE",
-      payload: e.target[0].value,
-    });
-    e.target[0].value = "";
-  };
 
   const handleUpload = async () => {
     setUploading(true);
@@ -52,47 +44,41 @@ const Add = () => {
 
   const mutation = useMutation({
     mutationFn: (gig) => {
-      return newRequest.post("/gigs", gig);
+      return newRequest.post("/ads", gig);
     },
     onSuccess: () => {
-      queryClient.invalidateQueries(["myGigs"]);
+      queryClient.invalidateQueries(["myAds"]);
     },
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
     mutation.mutate(state);
-     navigate("/mygigs")
+    navigate("/myads");
   };
 
   return (
     <div className="add">
       <div className="container">
-        <h1>Add New Gig</h1>
+        <h1>Add New Ad-Space</h1>
         <div className="sections">
           <div className="info">
-            <label htmlFor="">Title</label>
+            <label htmlFor="">Address</label>
             <input
               type="text"
-              name="title"
-              placeholder="e.g. I will do something I'm really good at"
+              name="address"
+              placeholder="Address of your ad-space"
               onChange={handleChange}
             />
-            <label htmlFor="">Category</label>
-            <select name="cat" id="cat" onChange={handleChange}>
-              <option value="design">Design</option>
-              <option value="web">Web Development</option>
-              <option value="animation">Animation</option>
-              <option value="music">Music</option>
+            <label htmlFor="">Expected Traffic</label>
+            <select name="traffic" onChange={handleChange}>
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High</option>
             </select>
             <div className="images">
               <div className="imagesInputs">
-                <label htmlFor="">Cover Image</label>
-                <input
-                  type="file"
-                  onChange={(e) => setSingleFile(e.target.files[0])}
-                />
-                <label htmlFor="">Upload Images</label>
+                <label htmlFor="">Ad-Space Images</label>
                 <input
                   type="file"
                   multiple
@@ -100,66 +86,56 @@ const Add = () => {
                 />
               </div>
               <button onClick={handleUpload}>
-                {uploading ? "uploading" : "Upload"}
+                {uploading ? "Uploading..." : "Upload"}
               </button>
             </div>
-            <label htmlFor="">Description</label>
-            <textarea
-              name="desc"
-              id=""
-              placeholder="Brief descriptions to introduce your service to customers"
-              cols="0"
-              rows="16"
-              onChange={handleChange}
-            ></textarea>
+            <label htmlFor="">Category</label>
+            <select name="category" onChange={handleChange}>
+              <option value="wallscapes">Wallscapes</option>
+              <option value="digital billboards">Digital Billboards</option>
+              <option value="Billboards">Billboards</option>
+              <option value="Street furniture">Street Furniture</option>
+              {/* <option value="Billboards">Billboards</option> */}
+            </select>
             <button onClick={handleSubmit}>Create</button>
           </div>
           <div className="details">
-            <label htmlFor="">Service Title</label>
+            <label htmlFor="">Size</label>
             <input
               type="text"
-              name="shortTitle"
-              placeholder="e.g. One-page web design"
+              name="size"
+              placeholder="e.g. 10x20 ft"
               onChange={handleChange}
             />
             <label htmlFor="">Short Description</label>
             <textarea
-              name="shortDesc"
+              name="shortDescription"
               onChange={handleChange}
-              id=""
-              placeholder="Short description of your service"
+              placeholder="Short description of your ad-space"
               cols="30"
-              rows="10"
+              rows="5"
             ></textarea>
-            <label htmlFor="">Delivery Time (e.g. 3 days)</label>
-            <input type="number" name="deliveryTime" onChange={handleChange} />
-            <label htmlFor="">Revision Number</label>
+            <label htmlFor="">Duration (e.g. 20 days)</label>
             <input
               type="number"
-              name="revisionNumber"
+              name="duration"
+              placeholder="Specify the available duration for ad placements (days)"
               onChange={handleChange}
             />
-            <label htmlFor="">Add Features</label>
-            <form action="" className="add" onSubmit={handleFeature}>
-              <input type="text" placeholder="e.g. page design" />
-              <button type="submit">add</button>
-            </form>
-            <div className="addedFeatures">
-              {state?.features?.map((f) => (
-                <div className="item" key={f}>
-                  <button
-                    onClick={() =>
-                      dispatch({ type: "REMOVE_FEATURE", payload: f })
-                    }
-                  >
-                    {f}
-                    <span>X</span>
-                  </button>
-                </div>
-              ))}
-            </div>
+            <label htmlFor="">Target Audience</label>
+            <input
+              type="text"
+              name="audience"
+              placeholder="Describe the demographic or type of audience that passes by the hoarding"
+              onChange={handleChange}
+            />
             <label htmlFor="">Price</label>
-            <input type="number" onChange={handleChange} name="price" />
+            <input
+              type="number"
+              name="price"
+              placeholder="Enter the price"
+              onChange={handleChange}
+            />
           </div>
         </div>
       </div>
