@@ -2,9 +2,9 @@
   position: relative;
   display: flex;
   justify-content: center;
-  height: 740px;
+  height: 93vh;
   color: white;
-  background-image: url("./img/bg3.jpg");
+  background-image: url("/img/ts.gif");
   background-size: cover;
   overflow: hidden;
 
@@ -109,7 +109,7 @@
   background-image: inherit;
   background-size: cover;
   background-position: center;
-  filter: blur(4px);
+  filter: brightness(0.6);
   z-index: 0;
 }
 

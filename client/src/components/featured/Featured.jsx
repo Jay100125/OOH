@@ -7,7 +7,8 @@ const Featured = () => {
   const navigate = useNavigate()
 
   const handleSubmit = ()=>{
-    navigate(`/gigs?search=${input}`)
+
+    navigate(`/gigs?title=${input}`)
   }
   return (
     <div className="featured">
@@ -18,9 +19,15 @@ const Featured = () => {
             Find the perfect<span style={{textShadow:"3px 3px #a91d3a"}}> spots </span> to showcase your brand.
           </h1>
           <div className="search">
-            <div className="searchInput">
+            <div className="searchInput" style={{
+                width:"100%",
+                height:"100%"
+              }}>
               <img src="./img/search.png" alt="" />
-              <input type="" placeholder="Try building mobile app" onChange={(e) => setInput(e.target.value)} />
+              <input style={{
+                width:"100%",
+                height:"100%"
+              }} type="" placeholder="Try searching Wallscapes" onChange={(e) => setInput(e.target.value)} />
             </div>
             <button style={{
               backgroundColor:"#a91d3a",
