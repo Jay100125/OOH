@@ -69,13 +69,13 @@ const Home = () => {
       <div className="features dark">
         <div className="container">
           <div className="item">
-            <h1>OOH Advertising Solutions</h1>
+            <h1>AdSpace Advertising Solutions</h1>
             <h2>
               Advanced solutions and professional talent for OOH advertising
             </h2>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              OOH Pro
+              AdSpace Pro
             </div>
             <p>
               Access top advertising spaces and professional tools for managing
@@ -83,14 +83,14 @@ const Home = () => {
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              OOH Certified
+              AdSpace Certified
             </div>
             <p>
               Build your own branded marketplace of certified advertising spaces
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              OOH Enterprise
+              AdSpace Enterprise
             </div>
             <p>
               Manage your advertising campaigns and onboard additional ad spaces
@@ -107,7 +107,7 @@ const Home = () => {
 
       <div className="another">
         <h2 className="h2in">
-          Inspiring work made on OOH Advertising Platform
+          Inspiring work made on AdSpace Advertising Platform
         </h2>
         <Slide slidesToShow={4} arrowsScroll={4}>
           {projects.map((project) => (
