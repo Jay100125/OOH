@@ -15,14 +15,18 @@ const Featured = () => {
         <div className="left">
         <h1>
             {/* Find the perfect <span>freelance</span> services for your business */}
-            Find the perfect<span> spots </span> to showcase your brand.
+            Find the perfect<span style={{textShadow:"3px 3px #a91d3a"}}> spots </span> to showcase your brand.
           </h1>
           <div className="search">
             <div className="searchInput">
               <img src="./img/search.png" alt="" />
               <input type="" placeholder="Try building mobile app" onChange={(e) => setInput(e.target.value)} />
             </div>
-            <button onClick={handleSubmit}>Search</button>
+            <button style={{
+              backgroundColor:"#a91d3a",
+              borderTopRightRadius: "5px",
+              borderBottomRightRadius: "5px"
+            }} onClick={handleSubmit}>Search</button>
           </div>
           <div className="popular">
             {/* <span>Popular:</span>
