@@ -257,7 +257,7 @@ export const cards = [
           "/img/db3.jpeg.jpg"
       ],
       desc: "Your Message. Their Attention. Digital Billboards Make it Happen.",
-      price: 1199,
+      price: 5000,
       star: 5,
       username: "Carol Steve",
       title: "Digital Billboards",
