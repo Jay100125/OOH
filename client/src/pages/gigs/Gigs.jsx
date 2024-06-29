@@ -92,7 +92,7 @@ function Gigs() {
   const [sort, setSort] = useState("sales");
   const [open, setOpen] = useState(false);
   const [filteredGigs, setFilteredGigs] = useState([]);
-
+  const [cat, setCat] = useState(null);
   const minRef = useRef();
   const maxRef = useRef();
 
@@ -106,6 +106,7 @@ function Gigs() {
         gig.title.toLowerCase().includes(title.toLowerCase())
       );
       setFilteredGigs(filtered);
+      setCat(title)
     } else {
       setFilteredGigs(gigsdetails);
     }
@@ -124,10 +125,10 @@ function Gigs() {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">Liverr Graphics & Design </span>
-        <h1>AI Artists</h1>
+        {/* <span className="breadcrumbs">Liverr > Graphics & Design ></span> */}
+        <h1>{cat}</h1>
         <p>
-          Explore the boundaries of art and technology with Liverr's AI artists
+          Discover all {cat} we offer on our platform
         </p>
         <div className="menu">
           <div className="left">

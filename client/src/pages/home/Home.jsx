@@ -13,11 +13,13 @@ const Home = () => {
     <div className="home">
       <Featured />
       <TrustedBy />
-      <Slide slidesToShow={5} arrowsScroll={5}>
-        {cards.map((card) => (
-          <CatCard key={card.id} item={card} />
-        ))}
-      </Slide>
+      <span id="ss">
+        <Slide slidesToShow={5} arrowsScroll={5}>
+          {cards.map((card) => (
+            <CatCard key={card.id} item={card} />
+          ))}
+        </Slide>
+      </span>
       <div className="features">
         <div className="container">
           <div className="item">

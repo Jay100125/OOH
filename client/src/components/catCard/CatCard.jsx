@@ -6,8 +6,11 @@ function CatCard({ item }) {
   return (
     <Link to={`/gigs?title=${encodeURIComponent(item.title)}`}>
       <div className="catCard">
+        
         <img src={item.img} alt=""/>
-        <span className="title">{item.title}</span>
+        <span style={{
+          textShadow:"3px 3px #a91d3a"
+        }} className="title">{item.title}</span>
       </div>
     </Link>
   );

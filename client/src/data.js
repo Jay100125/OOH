@@ -15,7 +15,7 @@ export const cards = [
       id: 3,
       title: "Digital BillBoards",
       // desc: "Customize your site",
-      img: "./img/22.jpg",
+      img: "./img/bill2.jpg",
     },
     {
       id: 4,
@@ -31,7 +31,7 @@ export const cards = [
     },
     {
       id: 6,
-      title: "Social Media",
+      title: "BillBoards",
       desc: "Reach more customers",
       img: "./img/6.png",
     },
