@@ -205,10 +205,10 @@ export const cards = [
   export const gigsdetails = [
     {
       id: 1,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/ws1.avif",
+      pp: ["/img/ws1.avif",
+          "/img/ws5.jpg",
+          "/img/ws3.jpeg"
       ],
       desc: "Promote Your Brand on Prime Billboard Locations",
       price: 82678,
@@ -228,10 +228,10 @@ export const cards = [
     },
     {
       id: 2,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/ps1.jpg",
+      pp: ["/img/ps1.jpg",
+          "/img/ps3.jpg",
+          "/img/ps2.jpg"
       ],
       desc: "I will create ultra high quality character art with ai",
       price: 7999,
@@ -273,29 +273,6 @@ export const cards = [
       ],
     },
     {
-      id: 4,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
-      ],
-      desc: "I will create custom ai generated artwork using your photos",
-      price: 9999,
-      star: 4,
-      username: "Don Weber",
-      title: "Billboards",
-      shortTitle: "Billboards",
-      shortDesc: "Striking Visuals to Command Attention Everywhere.",
-      deliveryDate: 2,
-      revisionNumber: 3,
-      features: [
-        "Size: 12 X 18 ft.",
-        "Location: Navrangpura, Ahmedabad",
-        "Target Audience:  Families,  Shoppers",
-        "Additional Design Elements:  Custom Branding,  Call to Action"
-      ],
-    },
-    {
       id: 5,
       img: "/img/12.png",
       pp: ["/img/12.png",
@@ -318,35 +295,13 @@ export const cards = [
         "Additional Design Elements:  Creative Typography,  Minimalist Style"
       ],
     },
-    {
-      id: 6,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
-      ],
-      desc: "I will create ai digital art illustration hyper realistic painting",
-      price: 7999,
-      star: 4,
-      username: "Walton Shepard ",
-      title: "Wallscapes",
-      shortTitle: "Wallscapes",
-      shortDesc: "Urban Experiences Redefined with Bold Graphics.",
-      deliveryDate: 2,
-      revisionNumber: 3,
-      features: [
-        "Size: 15 X 20 ft.",
-        "Location:  Vastrapur, Ahmedabad",
-        "Target Audience:  Tech Enthusiasts,  Young Adults",
-        "Additional Design Elements:  Interactive Elements,  Lighting Effects"
-      ],
-    },
+
     {
       id: 7,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/ps2.jpg",
+      pp: ["/img/ps2.jpg",
+          "/img/ps3.jpg",
+          "/img/ps1.jpg"
       ],
       desc: "I will generate images with your prompts using ai dalle",
       price: 8999,
@@ -387,29 +342,7 @@ export const cards = [
         "Additional Design Elements:  Minimalist Design,  Brand-Specific Imagery"
       ],
     },
-    {
-      id: 9,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
-      ],
-      desc: "I will create ai digital art illustration hyper realistic painting",
-      price: 7999,
-      star: 4,
-      username: "Walton Shepard ",
-      title: "Wallscapes",
-      shortTitle: "Wallscapes",
-      shortDesc: "Transform Public Spaces with Creative Designs.",
-      deliveryDate: 2,
-      revisionNumber: 3,
-      features: [
-        "Size: 15 X 25 ft.",
-        "Location:  Bodakdev, Ahmedabad",
-        "Target Audience:  Students,  Young Professionals",
-        "Additional Design Elements:  Bold Typography,  Creative Layout"
-      ],
-    },
+
     {
       id: 10,
       img: "/img/12.png",
@@ -435,10 +368,10 @@ export const cards = [
     },
     {
       id: 11,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/ws3.jpeg",
+      pp: ["/img/ws3.jpeg",
+          "/img/ws4.webp",
+          "/img/ws5.jpg"
       ],
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 7999,
@@ -481,10 +414,10 @@ export const cards = [
     },
     {
       id: 13,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/ws4.webp",
+      pp: ["/img/ws4.webp",
+          "/img/ws1.avif",
+          "/img/ws5jpg"
       ],
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 7999,
@@ -502,35 +435,13 @@ export const cards = [
         "Additional Design Elements:  Interactive Elements,  Lighting Effects"
       ],
     },
-    {
-      id: 14,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
-      ],
-      desc: "I will create custom ai generated artwork using your photos",
-      price: 1100,
-      star: 4,
-      username: "Wilton Hunt",
-      title: "Digital Billboards",
-      shortTitle: "Digital Billboards",
-      shortDesc: "Bold Designs that Make a Statement.",
-      deliveryDate: 4,
-      revisionNumber: 2,
-      features: [
-        "Size: 15 X 10 ft.",
-        "Location:  Ellisbridge, Ahmedabad",
-        "Target Audience:  Families,  Foodies",
-        "Additional Design Elements:  Animation,  Special Effects"
-      ],
-    },
+
     {
       id: 15,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
+      img: "/img/ws5.jpg",
+      pp: ["/img/ws5.jpg",
+          "/img/ws3.jpeg",
+          "/img/ws4.webp"
       ],
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 7999,
