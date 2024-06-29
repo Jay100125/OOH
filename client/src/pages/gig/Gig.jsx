@@ -145,7 +145,7 @@ function Gig() {
               src="https://images.pexels.com/photos/720327/pexels-photo-720327.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
-            <span>Anna Bell</span>
+            <span>{gigData.username}</span>
             <div className="stars">
               <img src="/img/star.png" alt="" />
               <img src="/img/star.png" alt="" />
@@ -171,7 +171,7 @@ function Gig() {
           </Slider>
           <h2>About This Gig</h2>
           <p>
-           Tired of generic OOH ads? We create breathtaking visuals that will stop traffic and make your brand unforgettable. From giant character portraits to awe-inspiring landscapes, we design unique, eye-catching art that's perfect for billboards, bus shelters, and more. Ready to make your brand stand out? Let's talk!
+           {gigData.shortDesc}
           </p>
           <div className="seller">
             <h2>About The Seller</h2>
@@ -181,7 +181,7 @@ function Gig() {
                 alt=""
               />
               <div className="info">
-                <span>Little Angel</span>
+                <span>{gigData.username}</span>
                 <div className="stars">
                   <img src="/img/star.png" alt="" />
                   <img src="/img/star.png" alt="" />
@@ -336,39 +336,24 @@ function Gig() {
         </div>
         <div className="right">
           <div className="price">
-            <h3>1 AI generated image</h3>
-            <h2>$ 59.99</h2>
+            <h3>{gigData.title}</h3>
+            <h2>₹{gigData.price}</h2>
           </div>
           <p>
-            I will create a unique high quality AI generated image based on a
-            description that you give me
+            {gigData.shortDesc}
           </p>
-          <div className="details">
-            <div className="item">
-              <img src="/img/clock.png" alt="" />
-              <span>2 Days Delivery</span>
-            </div>
-            <div className="item">
-              <img src="/img/recycle.png" alt="" />
-              <span>3 Revisions</span>
-            </div>
-          </div>
           <div className="features">
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Prompt writing</span>
+              <span>{gigData.features[0]}</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Artwork delivery</span>
+              <span>{gigData.features[1]}</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Image upscaling</span>
-            </div>
-            <div className="item">
-              <img src="/img/greencheck.png" alt="" />
-              <span>Additional design</span>
+              <span>{gigData.features[2]}</span>
             </div>
           </div>
           <button>Continue</button>
