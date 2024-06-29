@@ -19,7 +19,7 @@ export const cards = [
     },
     {
       id: 4,
-      title: "BillBoards",
+      title: "Banner",
       // desc: "Engage your audience",
       img: "./img/4.jpg",
     },
@@ -273,30 +273,6 @@ export const cards = [
       ],
     },
     {
-      id: 5,
-      img: "/img/12.png",
-      pp: ["/img/12.png",
-          "/img/13.png",
-          "/img/14.png"
-      ],
-      desc: "I will recreate your dreams in high quality pictures",
-      price: 5999,
-      star: 5,
-      username: "Audrey Richards",
-      title: "Street Furniture",
-      shortTitle: "Street Furniture",
-      shortDesc: "Blend Seamlessly into City Life with Stylish Ads.",
-      deliveryDate: 3,
-      revisionNumber: 2,
-      features: [
-        "Size: 5 X 8 ft.",
-        "Location: Ashram Road, Ahmedabad",
-        "Target Audience:  Commuters,  Pedestrians",
-        "Additional Design Elements:  Creative Typography,  Minimalist Style"
-      ],
-    },
-
-    {
       id: 7,
       img: "/img/ps2.jpg",
       pp: ["/img/ps2.jpg",
@@ -466,7 +442,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      desc: "Make a Mark. Make a Difference. Banner It Up.",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -489,7 +465,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      desc: "Beyond the Ordinary. Banner Your Extraordinary.",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -512,7 +488,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      desc: "Turn Heads. Turn the Tide. Banner Your Brand.",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -535,7 +511,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "I will recreate your dreams in high quality pictures",
+      desc: "Turning Ordinary Moments into Extraordinary Ones.",
       price: 5999,
       star: 5,
       username: "Audrey Richards",
@@ -558,7 +534,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "I will recreate your dreams in high quality pictures",
+      desc: " Small Ads, Big Impact. Make Your Mark.",
       price: 5999,
       star: 5,
       username: "Audrey Richards",
@@ -581,7 +557,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "I will recreate your dreams in high quality pictures",
+      desc: "Because You're Worth It. Every Day.",
       price: 5999,
       star: 5,
       username: "Audrey Richards",
