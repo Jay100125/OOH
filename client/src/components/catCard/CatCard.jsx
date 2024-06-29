@@ -7,7 +7,7 @@ function CatCard({ item }) {
     <Link to="/gigs">
       <div className="catCard">
         <img src={item.img} alt=""/>
-        <span className="desc">{item.desc}</span>
+        {/* <span className="desc">{item.desc}</span> */}
         <span className="title">{item.title}</span>
       </div>
     </Link>

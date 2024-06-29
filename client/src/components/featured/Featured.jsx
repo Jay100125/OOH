@@ -14,7 +14,8 @@ const Featured = () => {
       <div className="container">
         <div className="left">
         <h1>
-            Find the perfect <span>freelance</span> services for your business
+            {/* Find the perfect <span>freelance</span> services for your business */}
+            Find the perfect<span> spots </span> to showcase your brand.
           </h1>
           <div className="search">
             <div className="searchInput">
@@ -24,11 +25,11 @@ const Featured = () => {
             <button onClick={handleSubmit}>Search</button>
           </div>
           <div className="popular">
-            <span>Popular:</span>
+            {/* <span>Popular:</span>
             <button>Web Design</button>
             <button>Wordpress</button>
             <button>Logo Design</button>
-            <button>AI Services</button>
+            <button>AI Services</button> */}
         
           </div>
         </div>
