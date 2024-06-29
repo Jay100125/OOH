@@ -16,7 +16,7 @@ const Featured = () => {
         <div className="left">
         <h1>
             {/* Find the perfect <span>freelance</span> services for your business */}
-            Find the perfect<span style={{textShadow:"3px 3px #a91d3a"}}> spots </span> to showcase your brand.
+            Find perfect<span style={{textShadow:"3px 3px #a91d3a"}}> AdSpace </span> to showcase your brand.
           </h1>
           <div className="search">
             <div className="searchInput" style={{
