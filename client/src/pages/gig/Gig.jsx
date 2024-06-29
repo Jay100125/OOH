@@ -168,8 +168,13 @@ function Gig() {
     <div className="gig">
       <div className="container">
         <div className="left">
+<<<<<<< HEAD
           <span className="breadcrumbs">Liverr > Graphics & Design ></span>
           <h1>Promote Your Brand on Prime Billboard Locations</h1>
+=======
+          <span className="breadcrumbs">Liverr Graphics & Design </span>
+          <h1>I will create ai generated art for you</h1>
+>>>>>>> 75b6a257384d91023a76bf20d96a421289a276d2
           <div className="user">
             <img
               className="pp"

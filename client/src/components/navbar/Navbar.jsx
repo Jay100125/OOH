@@ -40,28 +40,28 @@ const Navbar = () => {
       <div className="container">
         <div className="logo">
           <Link to="/" className="link">
-            <span className="text">DesignHive</span>
+            <span className="text">OOH</span>
           </Link>
           <span className="dot">.</span>
         </div>
         <div className="links">
-          <span>DesignHive Bussiness</span>
+          <span>OOH Bussiness</span>
           <span>Explorer</span>
           <span>English</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
             <div className="user" onClick={() => setOpen(!open)}>
-              <img src={currentUser.img || "/img/pinterest.png"} alt="" />
+              <img src={currentUser.img || "/img/user.png"} alt="" />
               <span>{currentUser?.username}</span>
               {open && (
                 <div className="options">
                   {currentUser.isSeller && (
                     <>
                       <Link className="link" to="/mygigs">
-                        Gigs
+                        Posts
                       </Link>
                       <Link className="link" to="/add">
-                        Add New Gig
+                        Add New Post
                       </Link>
                     </>
                   )}
