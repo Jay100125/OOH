@@ -372,7 +372,9 @@ function Gig() {
               <span>{gigData.features[2]}</span>
             </div>
           </div>
+          <a href="https://buy.stripe.com/test_fZeaIm8re9Em7GE8ww">
           <button>Continue</button>
+          </a>
         </div>
       </div>
     </div>
