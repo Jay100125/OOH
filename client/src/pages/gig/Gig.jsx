@@ -1,7 +1,7 @@
 // import React from "react";
 // import "./Gig.scss";
 // import { Slider } from "infinite-react-carousel/lib";
-// import { gigsdetails as gigs } from "../../data"; // Import the gigsdetails data 
+// import { gigsdetails as gigs } from "../../data"; // Import the gigsdetails data
 // import { useParams } from "react-router-dom";
 
 // function Gig() {
@@ -65,15 +65,15 @@
 //               <div className="items">
 //                 <div className="item">
 //                   <span className="title">From</span>
-//                   <span className="desc">{gig.location}</span> 
+//                   <span className="desc">{gig.location}</span>
 //                 </div>
 //                 <div className="item">
 //                   <span className="title">Member since</span>
-//                   <span className="desc">Aug 2022</span> 
+//                   <span className="desc">Aug 2022</span>
 //                 </div>
 //                 <div className="item">
 //                   <span className="title">Last delivery</span>
-//                   <span className="desc">1 day</span> 
+//                   <span className="desc">1 day</span>
 //                 </div>
 //               </div>
 //               <hr />
@@ -145,7 +145,7 @@ function Gig() {
               src="https://images.pexels.com/photos/720327/pexels-photo-720327.jpeg?auto=compress&cs=tinysrgb&w=1600"
               alt=""
             />
-            <span>Anna Bell</span>
+            <span>{gigData.username}</span>
             <div className="stars">
               <img src="/img/star.png" alt="" />
               <img src="/img/star.png" alt="" />
@@ -157,21 +157,25 @@ function Gig() {
           </div>
           <Slider slidesToShow={1} arrowsScroll={1} className="slider">
             <img
-              src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              src={gigData.pp[0]}
               alt=""
             />
             <img
-              src="https://images.pexels.com/photos/1462935/pexels-photo-1462935.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              src={gigData.pp[1]}
               alt=""
             />
             <img
-              src="https://images.pexels.com/photos/1054777/pexels-photo-1054777.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              src={gigData.pp[2]}
               alt=""
             />
           </Slider>
-          <h2>About This Gig</h2>
+          <h2>About This Post</h2>
           <p>
-           Tired of generic OOH ads? We create breathtaking visuals that will stop traffic and make your brand unforgettable. From giant character portraits to awe-inspiring landscapes, we design unique, eye-catching art that's perfect for billboards, bus shelters, and more. Ready to make your brand stand out? Let's talk!
+            Tired of generic OOH ads? We create breathtaking visuals that will
+            stop traffic and make your brand unforgettable. From giant character
+            portraits to awe-inspiring landscapes, we design unique,
+            eye-catching art that's perfect for billboards, bus shelters, and
+            more. Ready to make your brand stand out? Let's talk!
           </p>
           <div className="seller">
             <h2>About The Seller</h2>
@@ -181,7 +185,7 @@ function Gig() {
                 alt=""
               />
               <div className="info">
-                <span>Little Angel</span>
+                <span>{gigData.username}</span>
                 <div className="stars">
                   <img src="/img/star.png" alt="" />
                   <img src="/img/star.png" alt="" />
@@ -246,7 +250,15 @@ function Gig() {
                 <span>5</span>
               </div>
               <p>
-              "Little angel was the first, and after this, the only OOH agency I'll be working with. They were incredibly communicative throughout the entire process, providing me with regular updates and showing me design iterations every step of the way. They listened carefully to my vision, understood my target audience, and delivered a campaign that exceeded my expectations. The final designs are absolutely stunning, and I'm confident they'll make a huge impact. I highly recommend Little angel for anyone looking for creative, impactful OOH campaigns."
+                "Little angel was the first, and after this, the only OOH agency
+                I'll be working with. They were incredibly communicative
+                throughout the entire process, providing me with regular updates
+                and showing me design iterations every step of the way. They
+                listened carefully to my vision, understood my target audience,
+                and delivered a campaign that exceeded my expectations. The
+                final designs are absolutely stunning, and I'm confident they'll
+                make a huge impact. I highly recommend Little angel for anyone
+                looking for creative, impactful OOH campaigns."
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
@@ -284,7 +296,10 @@ function Gig() {
                 <span>5</span>
               </div>
               <p>
-              "It was a dream to work with! They listened carefully to my vision and provided constant updates throughout the process. They truly went above and beyond to make sure I was happy with the final design."
+                "It was a dream to work with! They listened carefully to my
+                vision and provided constant updates throughout the process.
+                They truly went above and beyond to make sure I was happy with
+                the final design."
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
@@ -322,7 +337,10 @@ function Gig() {
                 <span>5</span>
               </div>
               <p>
-              I'm so glad I chose little angel for my OOH campaign. They delivered exactly what I was hoping for, and the results have been fantastic. I highly recommend them to anyone looking for a creative and effective OOH agency.
+                I'm so glad I chose little angel for my OOH campaign. They
+                delivered exactly what I was hoping for, and the results have
+                been fantastic. I highly recommend them to anyone looking for a
+                creative and effective OOH agency.
               </p>
               <div className="helpful">
                 <span>Helpful?</span>
@@ -336,39 +354,22 @@ function Gig() {
         </div>
         <div className="right">
           <div className="price">
-            <h3>1 AI generated image</h3>
-            <h2>$ 59.99</h2>
+            <h3>{gigData.title}</h3>
+            <h2>₹{gigData.price}</h2>
           </div>
-          <p>
-            I will create a unique high quality AI generated image based on a
-            description that you give me
-          </p>
-          <div className="details">
-            <div className="item">
-              <img src="/img/clock.png" alt="" />
-              <span>2 Days Delivery</span>
-            </div>
-            <div className="item">
-              <img src="/img/recycle.png" alt="" />
-              <span>3 Revisions</span>
-            </div>
-          </div>
+          <p>{gigData.shortDesc}</p>
           <div className="features">
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Prompt writing</span>
+              <span>{gigData.features[0]}</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Artwork delivery</span>
+              <span>{gigData.features[1]}</span>
             </div>
             <div className="item">
               <img src="/img/greencheck.png" alt="" />
-              <span>Image upscaling</span>
-            </div>
-            <div className="item">
-              <img src="/img/greencheck.png" alt="" />
-              <span>Additional design</span>
+              <span>{gigData.features[2]}</span>
             </div>
           </div>
           <button>Continue</button>

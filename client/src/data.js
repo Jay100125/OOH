@@ -205,16 +205,18 @@ export const cards = [
   export const gigsdetails = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/580151/pexels-photo-580151.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/720598/pexels-photo-720598.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "Promote Your Brand on Prime Billboard Locations",
       price: 82678,
       star: 5,
       username: "Anna Bell",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Captivating Wallscapes that Transform Urban Spaces into Eye-Catching Brand Experiences.",
+      shortDesc: "Transform Urban Spaces into Vibrant Brand Showcases.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -226,15 +228,18 @@ export const cards = [
     },
     {
       id: 2,
-      img: "https://images.pexels.com/photos/4145190/pexels-photo-4145190.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1036627/pexels-photo-1036627.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create ultra high quality character art with ai",
       price: 7999,
       star: 5,
       username: "Lannie Coleman",
       title: "Poster",
       shortTitle: "Posters",
-      shortDesc: "Eye-Catching Posters to Promote Your Brand in Various Settings.",
+      shortDesc: "Eye-Catching Posters for Maximum Street Impact.",
       deliveryDate: 3,
       revisionNumber: 2,
       features: [
@@ -246,15 +251,18 @@ export const cards = [
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1062280/pexels-photo-1062280.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will creating unique ai generated artworks mid journey ai artist",
       price: 1199,
       star: 5,
       username: "Carol Steve",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Engaging Digital Billboard Campaigns to Capture Attention.",
+      shortDesc: "Engaging Digital Campaigns for Modern Audiences.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -266,15 +274,18 @@ export const cards = [
     },
     {
       id: 4,
-      img: "https://images.pexels.com/photos/5708069/pexels-photo-5708069.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create custom ai generated artwork using your photos",
       price: 9999,
       star: 4,
       username: "Don Weber",
       title: "Billboards",
       shortTitle: "Billboards",
-      shortDesc: "Striking Billboard Visuals to Boost Brand Awareness.",
+      shortDesc: "Striking Visuals to Command Attention Everywhere.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -286,16 +297,18 @@ export const cards = [
     },
     {
       id: 5,
-      img: "https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1771383/pexels-photo-1771383.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will recreate your dreams in high quality pictures",
       price: 5999,
       star: 5,
       username: "Audrey Richards",
       title: "Street Furniture",
       shortTitle: "Street Furniture",
-      shortDesc:
-        "Street Furniture Ads that Blend Seamlessly with the Urban Landscape.",
+      shortDesc: "Blend Seamlessly into City Life with Stylish Ads.",
       deliveryDate: 3,
       revisionNumber: 2,
       features: [
@@ -307,16 +320,18 @@ export const cards = [
     },
     {
       id: 6,
-      img: "https://images.pexels.com/photos/8100784/pexels-photo-8100784.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Urban Experiences Redefined with Bold Graphics.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -328,15 +343,18 @@ export const cards = [
     },
     {
       id: 7,
-      img: "https://images.pexels.com/photos/6039245/pexels-photo-6039245.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/720606/pexels-photo-720606.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will generate images with your prompts using ai dalle",
       price: 8999,
       star: 5,
       username: "Waverly Schaefer",
       title: "Poster",
       shortTitle: "Posters",
-      shortDesc: "Craft eye-catching posters that grab attention and promote your brand in various settings.",
+      shortDesc: "Fun and Colorful Designs for Any Setting.",
       deliveryDate: 3,
       revisionNumber: 2,
       features: [
@@ -348,15 +366,18 @@ export const cards = [
     },
     {
       id: 8,
-      img: "https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1699159/pexels-photo-1699159.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create custom art using midjourney generator",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Create engaging, eye-catching digital billboard campaigns that capture attention and drive results.",
+      shortDesc: "Minimalist Designs with Maximum Impact.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -368,16 +389,18 @@ export const cards = [
     },
     {
       id: 9,
-      img: "https://images.pexels.com/photos/6077368/pexels-photo-6077368.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Transform Public Spaces with Creative Designs.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -389,15 +412,18 @@ export const cards = [
     },
     {
       id: 10,
-      img: "https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1699159/pexels-photo-1699159.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create custom ai generated artwork using your photos",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Create engaging, eye-catching digital billboard campaigns that capture attention and drive results.",
+      shortDesc: "Bold Designs that Make a Statement.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -409,16 +435,18 @@ export const cards = [
     },
     {
       id: 11,
-      img: "https://images.pexels.com/photos/6077368/pexels-photo-6077368.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Dynamic Visuals for Every Corner of the City.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -430,15 +458,18 @@ export const cards = [
     },
     {
       id: 12,
-      img: "https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1699159/pexels-photo-1699159.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create custom ai generated artwork using your photos",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Create engaging, eye-catching digital billboard campaigns that capture attention and drive results.",
+      shortDesc: "Captivate Audiences with Unique Ads.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -450,16 +481,18 @@ export const cards = [
     },
     {
       id: 13,
-      img: "https://images.pexels.com/photos/6077368/pexels-photo-6077368.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Captivate Audiences with Unique Ads.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -471,15 +504,18 @@ export const cards = [
     },
     {
       id: 14,
-      img: "https://images.pexels.com/photos/5490778/pexels-photo-5490778.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1699159/pexels-photo-1699159.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create custom ai generated artwork using your photos",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
       title: "Digital Billboards",
       shortTitle: "Digital Billboards",
-      shortDesc: "Create engaging, eye-catching digital billboard campaigns that capture attention and drive results.",
+      shortDesc: "Bold Designs that Make a Statement.",
       deliveryDate: 4,
       revisionNumber: 2,
       features: [
@@ -491,16 +527,18 @@ export const cards = [
     },
     {
       id: 15,
-      img: "https://images.pexels.com/photos/6077368/pexels-photo-6077368.jpeg?auto=compress&cs=tinysrgb&w=1600",
-      pp: "https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
       desc: "I will create ai digital art illustration hyper realistic painting",
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc:
-        "Create captivating wallscapes that transform urban spaces into eye-catching brand experiences.",
+      shortDesc: "Urban Spaces Transformed with Innovative Art.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -510,4 +548,4 @@ export const cards = [
         "Additional Design Elements:  Creative Typography,  Minimalist Style"
       ],
     }
-  ]; 
+  ];
