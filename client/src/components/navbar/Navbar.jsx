@@ -46,8 +46,8 @@ const Navbar = () => {
         </div>
         <div className="links">
           <span>OOH Bussiness</span>
-          <span>Explorer</span>
-          <span>English</span>
+          {/* <span>Explorer</span>
+          <span>English</span> */}
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
             <div className="user" onClick={() => setOpen(!open)}>

@@ -1,13 +1,13 @@
 .featured{
     display: flex;
     justify-content: center;
-    height: 500px;
+    height: 740px;
     // background-color: #013914;
     color: white;
-    background-image: url("./img/billb.jpg");
+    background-image: url("./img/bg3.jpg");
     background-size: cover;
     .container{
-        width: 1200px;
+        width: 1260px;
         display: flex;
         align-items: center;
 
@@ -17,8 +17,8 @@
             gap: 30px;
             
             h1{
-                font-size: 50px;
-
+                font-size: 60px;
+                
                 span {
                     font-style: italic;
                     font-weight: 300;
