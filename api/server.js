@@ -22,14 +22,14 @@ try {
 
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({origin:"https://cosmic-strudel-40fbf2.netlify.app", credentials:true}))
+// app.use(cors({origin:"https://localhost:5173", credentials:true}))
 
-// app.use(
-//   cors({
-//     origin: "http://localhost:5173", // Update this with your frontend's origin
-//     credentials: true,
-//   })
-// );
+app.use(
+  cors({
+    origin: "http://localhost:5173", // Update this with your frontend's origin
+    credentials: true,
+  })
+);
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
 app.use("/api/gigs", gigRoute);

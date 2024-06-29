@@ -92,7 +92,7 @@ const Navbar = () => {
       {(active || pathname !== "/") && (
         <>
           <hr />
-          <div className="menu">
+          {/* <div className="menu">
             <Link className="link menuLink" to="/">
               Graphics & Design
             </Link>
@@ -114,7 +114,7 @@ const Navbar = () => {
             <Link className="link menuLink" to="/">
               Email Newsletter Design
             </Link>
-          </div>
+          </div> */}
           <hr />
         </>
       )}
