@@ -56,7 +56,7 @@ const GigCard = ({ item }) => {
         <img src={item.img} alt="" />
         <div className="info">
           <div className="user">
-            <img src={item.pp} alt="" />
+            <img src={item.pp[0]} alt="" />
             <span>{item.username}</span>
           </div>
           <p>{item.shortDesc}</p>
