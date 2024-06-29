@@ -233,7 +233,7 @@ export const cards = [
           "/img/ps3.jpg",
           "/img/ps2.jpg"
       ],
-      desc: "I will create ultra high quality character art with ai",
+      desc: "See. Believe. Act",
       price: 7999,
       star: 5,
       username: "Lannie Coleman",
@@ -256,7 +256,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "I will creating unique ai generated artworks mid journey ai artist",
+      desc: "Your Message. Their Attention. Digital Billboards Make it Happen.",
       price: 1199,
       star: 5,
       username: "Carol Steve",
@@ -303,7 +303,7 @@ export const cards = [
           "/img/ps3.jpg",
           "/img/ps1.jpg"
       ],
-      desc: "I will generate images with your prompts using ai dalle",
+      desc: "Turn Heads. Stop Traffic",
       price: 8999,
       star: 5,
       username: "Waverly Schaefer",
@@ -326,7 +326,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "I will create custom art using midjourney generator",
+      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -350,7 +350,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "I will create custom ai generated artwork using your photos",
+      desc: "Digital Billboards: Where Your Message Takes Center Stage",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -373,7 +373,7 @@ export const cards = [
           "/img/ws4.webp",
           "/img/ws5.jpg"
       ],
-      desc: "I will create ai digital art illustration hyper realistic painting",
+      desc: "Turn your wallscape into a brand icon. Stand out from the crowd",
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
@@ -396,7 +396,7 @@ export const cards = [
           "/img/13.png",
           "/img/14.png"
       ],
-      desc: "I will create custom ai generated artwork using your photos",
+      desc: "Amplify Your Message: Digital Billboards for the Modern Era.",
       price: 1100,
       star: 4,
       username: "Wilton Hunt",
@@ -419,13 +419,13 @@ export const cards = [
           "/img/ws1.avif",
           "/img/ws5jpg"
       ],
-      desc: "I will create ai digital art illustration hyper realistic painting",
+      desc: "Your Brand, Their Everyday View: Captivating Wallscapes",
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
       title: "Wallscapes",
       shortTitle: "Wallscapes",
-      shortDesc: "Captivate Audiences with Unique Ads.",
+      shortDesc: "Wallscapes: Where Art Meets Advertising.",
       deliveryDate: 2,
       revisionNumber: 3,
       features: [
@@ -443,7 +443,7 @@ export const cards = [
           "/img/ws3.jpeg",
           "/img/ws4.webp"
       ],
-      desc: "I will create ai digital art illustration hyper realistic painting",
+      desc: "Make a Statement, Not Just an Ad: Wallscape Your Brand Story.",
       price: 7999,
       star: 4,
       username: "Walton Shepard ",
@@ -458,5 +458,143 @@ export const cards = [
         "Target Audience:  Families,  Shoppers",
         "Additional Design Elements:  Creative Typography,  Minimalist Style"
       ],
-    }
+    },
+    {
+      id: 16,
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
+      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      price: 1100,
+      star: 4,
+      username: "Wilton Hunt",
+      title: "Banner",
+      shortTitle: "Banner",
+      shortDesc: "Minimalist Designs with Maximum Impact.",
+      deliveryDate: 4,
+      revisionNumber: 2,
+      features: [
+        "Size: 12 X 18 ft.",
+        "Location:  S.G. Highway, Ahmedabad",
+        "Target Audience:  Business Professionals,  Executives",
+        "Additional Design Elements:  Minimalist Design,  Brand-Specific Imagery"
+      ],
+    },
+    {
+      id: 17,
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
+      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      price: 1100,
+      star: 4,
+      username: "Wilton Hunt",
+      title: "Banner",
+      shortTitle: "Banner",
+      shortDesc: "Minimalist Designs with Maximum Impact.",
+      deliveryDate: 4,
+      revisionNumber: 2,
+      features: [
+        "Size: 12 X 18 ft.",
+        "Location:  S.G. Highway, Ahmedabad",
+        "Target Audience:  Business Professionals,  Executives",
+        "Additional Design Elements:  Minimalist Design,  Brand-Specific Imagery"
+      ],
+    },
+    {
+      id: 18,
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
+      desc: "Go Big, Go Bold, Go Digital: Elevate Your Campaign to New Heights.",
+      price: 1100,
+      star: 4,
+      username: "Wilton Hunt",
+      title: "Banner",
+      shortTitle: "Banner",
+      shortDesc: "Minimalist Designs with Maximum Impact.",
+      deliveryDate: 4,
+      revisionNumber: 2,
+      features: [
+        "Size: 12 X 18 ft.",
+        "Location:  S.G. Highway, Ahmedabad",
+        "Target Audience:  Business Professionals,  Executives",
+        "Additional Design Elements:  Minimalist Design,  Brand-Specific Imagery"
+      ],
+    },
+    {
+      id: 5,
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
+      desc: "I will recreate your dreams in high quality pictures",
+      price: 5999,
+      star: 5,
+      username: "Audrey Richards",
+      title: "Street Furniture",
+      shortTitle: "Street Furniture",
+      shortDesc: "Blend Seamlessly into City Life with Stylish Ads.",
+      deliveryDate: 3,
+      revisionNumber: 2,
+      features: [
+        "Size: 5 X 8 ft.",
+        "Location: Ashram Road, Ahmedabad",
+        "Target Audience:  Commuters,  Pedestrians",
+        "Additional Design Elements:  Creative Typography,  Minimalist Style"
+      ],
+    },
+    {
+      id: 19,
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
+      desc: "I will recreate your dreams in high quality pictures",
+      price: 5999,
+      star: 5,
+      username: "Audrey Richards",
+      title: "Street Furniture",
+      shortTitle: "Street Furniture",
+      shortDesc: "Blend Seamlessly into City Life with Stylish Ads.",
+      deliveryDate: 3,
+      revisionNumber: 2,
+      features: [
+        "Size: 5 X 8 ft.",
+        "Location: Ashram Road, Ahmedabad",
+        "Target Audience:  Commuters,  Pedestrians",
+        "Additional Design Elements:  Creative Typography,  Minimalist Style"
+      ],
+    },
+    {
+      id: 20,
+      img: "/img/12.png",
+      pp: ["/img/12.png",
+          "/img/13.png",
+          "/img/14.png"
+      ],
+      desc: "I will recreate your dreams in high quality pictures",
+      price: 5999,
+      star: 5,
+      username: "Audrey Richards",
+      title: "Street Furniture",
+      shortTitle: "Street Furniture",
+      shortDesc: "Blend Seamlessly into City Life with Stylish Ads.",
+      deliveryDate: 3,
+      revisionNumber: 2,
+      features: [
+        "Size: 5 X 8 ft.",
+        "Location: Ashram Road, Ahmedabad",
+        "Target Audience:  Commuters,  Pedestrians",
+        "Additional Design Elements:  Creative Typography,  Minimalist Style"
+      ],
+    },
   ];
